@@ -1,0 +1,262 @@
+html{
+    font-size: 62.5%;
+}
+body{
+ 
+ font-family: 'poppins';
+ font-family: 'Playfair Display';
+}
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto; /* to put context just in the midle of the page */
+}
+header{
+    display: flex;
+    flex-direction: row-reverse;
+
+    justify-content: space-between; 
+    margin-top: 8px;
+
+}
+.login{
+    display: flex;
+    gap: 12px ;
+    margin: 10;
+    font-size: 1.3rem;
+    
+}
+.login a{
+    text-decoration: none;
+    
+}
+.log{
+    margin-top: -4px;
+    background-color: #F99417 ; 
+    font-size: 1.1rem; 
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-weight: 100;
+    padding: 0.5em 2em;
+    border-radius: 0.4em;
+    font-family: 'poppins';
+}
+.sign{
+    margin-top: -4px;
+    background-color: #F5EAEA ; 
+    font-size: 1.1rem; 
+    text-decoration: none;
+    font-weight: bold;
+    color: F99417;
+    font-weight: 100;
+    padding: 0.5em 2em;
+    border-radius: 0.4em;
+    font-family: 'poppins';
+}
+.nav ul{
+    display: flex;
+    gap: 20px ;
+    list-style: none;
+    margin: 10;
+}
+a{
+    text-decoration: none;
+color: #A459D1;
+font-size: 1.1rem;
+font-family: 'poppins';
+
+}
+.active{
+    color: #F5EA5A;
+}
+main{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left:0 ;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left-column{
+    width: 45%;
+    border: #CEE5D0 2px solid;
+    height: 610px ; 
+    padding-right: 30px;
+}
+
+
+
+img{
+    margin-top: 15%;
+    margin-left: 30%;
+    width:50%;
+    height: 50% ; 
+    z-index: -10;
+}
+h1{
+    font-family: 'poppins';
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'poppins';
+     color: gray;
+     margin-left: 50px;
+     font-weight: normal;
+     font-size: 1.1rem;
+     
+}
+.below{
+    display: flex;
+    margin: 0 auto;
+    margin-left: 50px;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 140px;
+}
+.quantity{
+    position: relative;
+     display: flex;
+    justify-content: space-between;
+    background-color: #F1EFDC;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: 4px;
+    height: 20px;
+    width: 70px;
+    border-radius: 0.3em;
+    font-family: 'poppins';
+  
+}
+.quantity a{
+    font-family: 'poppins';
+    color: black;
+}
+.pruchase{
+    display: flex;
+    gap: 25px;
+}
+.price{
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: medium;
+}
+
+svg{
+   width: 190%;
+   height: 80%;
+
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+   background-color: #F1EFDC;
+   padding-left: 25px;
+   padding-right: 25px;
+   text-align: center;
+   padding-top: 4px;
+   height: 20px;
+   width: 82px;
+   border-radius: 0.3em;
+   font-family: 'poppins';
+}
+.addtocart{
+    color: #F99417;
+}
+.right-column{
+    width: 45%;
+    height: 580px;
+    display: grid ; 
+     grid-template-columns: repeat(8 , 1fr);
+     grid-template-rows: repeat(2 , 1fr);
+     grid-template-areas: "left left left left  right right right right"
+                           "bottom bottom bottom bottom  top top top top"   ; 
+                           gap: 10px 10px ;
+                           
+}
+.card1{
+    background-color: #F7F7F7;
+    grid-area: bottom;
+    border-radius: .6em;
+    grid-area: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card2{
+    background-color: #ECECEC;
+    grid-area: bottom;
+    border-radius: .6em;
+    grid-area: right;
+}
+.card3{
+    background-color: #ECECEC;
+    grid-area: bottom;
+    border-radius: .6em;
+}
+.card4{
+    background-color: #ECECEC;
+    grid-area: bottom;
+    border-radius: .6em;
+    grid-area: top; 
+}
+.upper h2{
+    font-family: 'poppins';
+        text-align: center;
+        font-size: medium;
+}
+.upper img{
+   width: 50%;
+   height: 48%;
+    text-align: center;
+}
+.upper h5{
+    font-family: 'poppins';
+    color: gray;
+    text-align: center;
+}
+.under .quant{
+    display: flex;
+    margin-top: 10px;
+   justify-content: space-between;
+   background-color: #F1EFDC;
+   text-align: center;
+   padding-top: 4px;
+   height: 20px;
+   width: 260px;
+   padding-right: 8px;
+   padding-left: 8px;
+   border-radius: 0.3em;
+   font-family: 'poppins';
+   margin-right: 10px;
+}
+.under {
+    margin-top: 10px;
+    gap: 40px ;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.cart12{
+    display: flex;
+    gap: 20px;
+
+}
+
+.price12{
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: small;
+    padding-bottom: 10px;
+}
+.svgphoto{
+    width: 30px;
+    transition: .3s ;
+}
+.svgphoto:hover {
+content: "";  
+  
+  transform: translateX(5px);
+}
