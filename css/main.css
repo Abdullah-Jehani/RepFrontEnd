@@ -60,7 +60,7 @@ header{
 }
  .nav ul a:hover{
     content: "";
-    color: #F5EA5A;
+    color: #F99417;
  }
 
 a{
@@ -72,6 +72,10 @@ font-family: 'poppins';
 }
 .active{
     color: #F5EA5A;
+}
+.active:hover{
+    content: "";
+    color : #560585
 }
 main{
     margin-top: 15px;
