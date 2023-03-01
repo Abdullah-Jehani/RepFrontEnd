@@ -60,7 +60,7 @@ header{
 }
  .nav ul a:hover{
     content: "";
-    color: red;
+    color: #F5EA5A;
  }
 
 a{
